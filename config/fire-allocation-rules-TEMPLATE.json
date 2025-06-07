@@ -1,0 +1,124 @@
+{
+  "version": "1.0",
+  "system": "FamilyFlame",
+  "motto": "Keeping your family finances burning bright",
+  "lastUpdated": "2025-06-07",
+  "note": "⚠️ This is a TEMPLATE file. Copy to 'personal-config.json' and update with your actual values.",
+  "fireStrategy": {
+    "enabled": true,
+    "targetSavingsRate": 0.20,
+    "emergencyFundMonths": 6,
+    "fiTarget": 25,
+    "currentProgress": {
+      "monthlySavings": 0,
+      "currentNetWorth": 0,
+      "monthsToFI": 0
+    }
+  },
+  "household": {
+    "adults": ["Adult1", "Adult2"],
+    "children": ["Child1", "Child2"],
+    "location": "YourCountry"
+  },
+  "monthlyTargets": {
+    "minimumIncome": 5000,
+    "fixedCosts": 4500,
+    "pocketMoneyTotal": 300,
+    "pocketMoneyPerAdult": 150,
+    "baseSavings": 500
+  },
+  "bufferSystem": {
+    "targetAmount": 4000,
+    "currentAmount": 0,
+    "autoWithdrawThreshold": 5000,
+    "replenishmentRate": 0.1,
+    "monthsCovered": 0
+  },
+  "excessAllocation": {
+    "houseFund": 0.30,
+    "kidsFund": 0.25,
+    "longTermInvesting": 0.45,
+    "total": 1.0
+  },
+  "accounts": {
+    "personal": {
+      "name": "Your Personal Account",
+      "type": "checking",
+      "currency": "EUR",
+      "institution": "Your Bank"
+    },
+    "fixed": {
+      "name": "Fixed Costs Account",
+      "type": "checking", 
+      "currency": "EUR",
+      "institution": "Your Bank"
+    },
+    "joint": {
+      "name": "Joint Family Account",
+      "type": "checking",
+      "currency": "EUR",
+      "institution": "Your Bank"
+    }
+  },
+  "savingsGoals": {
+    "emergencyBuffer": {
+      "current": 0,
+      "target": 4000,
+      "priority": "critical",
+      "monthsToGoal": 0
+    },
+    "houseFund": {
+      "current": 0,
+      "target": 5000,
+      "priority": "high",
+      "monthsToGoal": 0
+    },
+    "kidsFund": {
+      "current": 0,
+      "target": 10000,
+      "priority": "medium",
+      "monthsToGoal": 0
+    },
+    "longTermInvesting": {
+      "current": 0,
+      "target": 25000,
+      "priority": "high",
+      "monthsToGoal": 0
+    }
+  },
+  "crypto": {
+    "enabled": false,
+    "totalValue": 0,
+    "percentageOfNetWorth": 0,
+    "assets": {
+      "BTC": {
+        "wallets": ["Wallet1", "Wallet2"],
+        "allocation": 0.60
+      },
+      "ETH": {
+        "wallets": ["Wallet1"],
+        "allocation": 0.25
+      },
+      "ADA": {
+        "wallets": ["Wallet1"],
+        "allocation": 0.15
+      }
+    },
+    "dcaStrategy": {
+      "enabled": false,
+      "monthlyAmount": 0,
+      "btcPercentage": 0.70,
+      "ethPercentage": 0.30
+    }
+  },
+  "taxOptimization": {
+    "country": "YourCountry",
+    "filingStatus": "single/married",
+    "taxYear": 2025,
+    "optimizations": {
+      "pensionContributions": true,
+      "mortgageDeduction": true,
+      "investmentTaxBox": true
+    }
+  }
+}

@@ -1,0 +1,3 @@
+# This file ensures the exports directory is tracked by git
+# Generated reports and exports will be saved here
+# Individual export files are excluded by .gitignore for privacy
